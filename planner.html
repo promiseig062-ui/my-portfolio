@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Planner | My Portfolio</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="logo">Promise Igboko</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="planner.html" class="active">Planner</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<h1>Academic Planner</h1>
+	<p>Add your study tasks below. Click a task to mark it as done. Click Delete to remove it.</p>
+
+	<div class="planner">
+		<input type="text" id="taskInput" placeholder="Enter a task...">
+		<button class="btn" id="addBtn">Add Task</button>
+	</div>
+
+	<ul id="taskList"></ul>
+</main>
+
+<footer>
+	<p>&copy; 2026 Promise Igboko. All rights reserved.</p>
+</footer>
+
+<script src="js/planner.js"></script>
+</body>
+</html>
